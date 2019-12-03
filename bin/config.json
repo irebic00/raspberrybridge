@@ -1,0 +1,16 @@
+{
+  "INBOUND_TRAFFIC_INTERFACE": "wlan0",
+  "OUTBOUND_TRAFFIC_INTERFACE": "eth0",
+  "DB_USERNAME": "pi",
+  "DB_NAME": "pi",
+  "DB_PASSWORD": "Internet",
+  "MAX_DOWNLOAD": "30mbit",
+  "MAX_UPLOAD": "30mbit",
+  "PYTHON_VERSION": "3.7",
+  "PREFERRED_SSIDS": {
+    "GRACEliving": "lana26062010",
+    "GRACEliving5G": "lana26062010",
+    "SiemensWLAN": "B3DE2757C0",
+    "GRACEliving2": "lana26062010"
+  }
+}

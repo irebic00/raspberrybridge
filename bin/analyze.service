@@ -1,0 +1,14 @@
+Description=Starts ping statistics monitor
+
+Wants=network.target
+After=syslog.target network-online.target
+
+[Service]
+Type=simple
+ExecStart=sudo python3.7 {project_path}/analyze.py >> {project_path}/session.log
+Restart=on-failure
+RestartSec=10
+KillMode=process
+
+[Install]
+WantedBy=multi-user.target

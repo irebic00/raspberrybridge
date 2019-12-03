@@ -1,0 +1,53 @@
+h1{
+    border-bottom: 1px solid black;
+}
+
+img {
+    width: 100vw;
+}
+
+iframe {
+    border: 0px;
+    height: 23px;
+}
+
+.destination p, h2 {
+    padding-left: 5px;
+}
+
+.destination h2 {
+    margin-bottom: 0;
+}
+
+.card-body {
+    background-color: lavender;
+}
+
+.chart {
+    height: 800px;
+}
+
+.table {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#testingSpinner {
+    display: none;
+}
+
+#testingResultsHolder {
+    display: none;
+}
+
+#piLogo {
+    width: 80px;
+    height: 60px;
+    display: inline-block;
+}
+
+#speedtestButton {
+    height: 50px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
